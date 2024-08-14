@@ -1,8 +1,11 @@
 const mongoose = require('mongoose');
 
 const CourseSchema = new mongoose.Schema({
-    department: String, // stores 'cmput' for example
-    details: mongoose.Schema.Types.Mixed // stores the details of each faculty
+    term: String, // e.g., 'summer', 'winter'
+    department: {
+        type: Map,
+        of: mongoose.Schema.Types.Mixed
+    }
 });
 
 const Course = mongoose.model('Course', CourseSchema);

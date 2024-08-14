@@ -1,777 +1,7 @@
 {
-    "cmput": {
-        "101": {
-            "Fall Term 2024": {
-                "Lectures": {
-                    "A1": {
-                        "section_code": "47725",
-                        "capacity": "168",
-                        "class_times": "09:30 - 10:50",
-                        "class_days": "TR"
-                    },
-                    "A2": {
-                        "section_code": "47726",
-                        "capacity": "168",
-                        "class_times": "14:00 - 15:20",
-                        "class_days": "TR"
-                    }
-                },
-                "Labs": {
-                    "D01": {
-                        "section_code": "47727",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "M"
-                    },
-                    "D02": {
-                        "section_code": "47733",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "M"
-                    },
-                    "D03": {
-                        "section_code": "47879",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "M"
-                    },
-                    "D04": {
-                        "section_code": "47729",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "T"
-                    },
-                    "D05": {
-                        "section_code": "50520",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "D06": {
-                        "section_code": "47728",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "D07": {
-                        "section_code": "47730",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "D08": {
-                        "section_code": "47731",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "D09": {
-                        "section_code": "50509",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "D10": {
-                        "section_code": "47732",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "R"
-                    },
-                    "D11": {
-                        "section_code": "47750",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "D12": {
-                        "section_code": "50468",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    }
-                }
-            },
-            "Winter Term 2025": {
-                "Lectures": {
-                    "B1": {
-                        "section_code": "73219",
-                        "capacity": "168",
-                        "class_times": "09:30 - 10:50",
-                        "class_days": "TR"
-                    },
-                    "B2": {
-                        "section_code": "73227",
-                        "capacity": "168",
-                        "class_times": "14:00 - 15:20",
-                        "class_days": "TR"
-                    }
-                },
-                "Labs": {
-                    "H01": {
-                        "section_code": "73220",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "M"
-                    },
-                    "H02": {
-                        "section_code": "73370",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "M"
-                    },
-                    "H03": {
-                        "section_code": "73223",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "M"
-                    },
-                    "H04": {
-                        "section_code": "73221",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "T"
-                    },
-                    "H05": {
-                        "section_code": "73222",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "H06": {
-                        "section_code": "73226",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "H07": {
-                        "section_code": "73225",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "H08": {
-                        "section_code": "75409",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "H09": {
-                        "section_code": "70762",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "R"
-                    },
-                    "H10": {
-                        "section_code": "73224",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "H11": {
-                        "section_code": "70799",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "H12": {
-                        "section_code": "74770",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    }
-                }
-            }
-        },
-        "174": {
-            "Fall Term 2024": {
-                "Lectures": {
-                    "800": {
-                        "section_code": "53213",
-                        "capacity": "192",
-                        "class_times": "12:30 - 13:50",
-                        "class_days": "TR"
-                    },
-                    "A1": {
-                        "section_code": "49636",
-                        "capacity": "150",
-                        "class_times": "08:00 - 09:20",
-                        "class_days": "TR"
-                    },
-                    "A2": {
-                        "section_code": "48664",
-                        "capacity": "182",
-                        "class_times": "09:30 - 10:50",
-                        "class_days": "TR"
-                    },
-                    "A3": {
-                        "section_code": "48667",
-                        "capacity": "152",
-                        "class_times": "11:00 - 12:20",
-                        "class_days": "TR"
-                    },
-                    "A4": {
-                        "section_code": "48665",
-                        "capacity": "152",
-                        "class_times": "12:30 - 13:50",
-                        "class_days": "TR"
-                    },
-                    "A5": {
-                        "section_code": "48666",
-                        "capacity": "150",
-                        "class_times": "14:00 - 15:20",
-                        "class_days": "TR"
-                    },
-                    "A6": {
-                        "section_code": "48663",
-                        "capacity": "152",
-                        "class_times": "15:30 - 16:50",
-                        "class_days": "TR"
-                    }
-                },
-                "Labs": {
-                    "801": {
-                        "section_code": "53214",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "802": {
-                        "section_code": "53215",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "803": {
-                        "section_code": "53216",
-                        "capacity": "48",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "F"
-                    },
-                    "804": {
-                        "section_code": "54267",
-                        "capacity": "48",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "D01": {
-                        "section_code": "49653",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "T"
-                    },
-                    "D02": {
-                        "section_code": "52297",
-                        "capacity": "23",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "T"
-                    },
-                    "D03": {
-                        "section_code": "50523",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "T"
-                    },
-                    "D04": {
-                        "section_code": "49648",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "T"
-                    },
-                    "D05": {
-                        "section_code": "47920",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "T"
-                    },
-                    "D06": {
-                        "section_code": "50529",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "D08": {
-                        "section_code": "47916",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "D09": {
-                        "section_code": "51285",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "D10": {
-                        "section_code": "48670",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "D11": {
-                        "section_code": "47915",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "D12": {
-                        "section_code": "49655",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "D13": {
-                        "section_code": "47917",
-                        "capacity": "48",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "D14": {
-                        "section_code": "50524",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "D15": {
-                        "section_code": "51208",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "D16": {
-                        "section_code": "48695",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "D17": {
-                        "section_code": "47921",
-                        "capacity": "38",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "D18": {
-                        "section_code": "49933",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "D19": {
-                        "section_code": "51286",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "D22": {
-                        "section_code": "52307",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "R"
-                    },
-                    "D25": {
-                        "section_code": "50522",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "R"
-                    },
-                    "D26": {
-                        "section_code": "47914",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "R"
-                    },
-                    "D27": {
-                        "section_code": "49651",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "D28": {
-                        "section_code": "47922",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "D29": {
-                        "section_code": "47918",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "D31": {
-                        "section_code": "51203",
-                        "capacity": "38",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "D32": {
-                        "section_code": "51204",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "F"
-                    },
-                    "D34": {
-                        "section_code": "52308",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "F"
-                    },
-                    "D35": {
-                        "section_code": "51287",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "D36": {
-                        "section_code": "47923",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "D37": {
-                        "section_code": "47919",
-                        "capacity": "48",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "D38": {
-                        "section_code": "50525",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    },
-                    "D39": {
-                        "section_code": "51202",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    },
-                    "D40": {
-                        "section_code": "52309",
-                        "capacity": "32",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    },
-                    "D41": {
-                        "section_code": "52310",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    }
-                }
-            },
-            "Winter Term 2025": {
-                "Lectures": {
-                    "B1": {
-                        "section_code": "73422",
-                        "capacity": "240",
-                        "class_times": "12:30 - 13:50",
-                        "class_days": "TR"
-                    }
-                },
-                "Labs": {
-                    "H03": {
-                        "section_code": "73418",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "H04": {
-                        "section_code": "74772",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "H06": {
-                        "section_code": "73423",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "H07": {
-                        "section_code": "73420",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "H08": {
-                        "section_code": "73424",
-                        "capacity": "24",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "H09": {
-                        "section_code": "73421",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "H10": {
-                        "section_code": "75464",
-                        "capacity": "24",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "F"
-                    },
-                    "H11": {
-                        "section_code": "74773",
-                        "capacity": "24",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    }
-                }
-            }
-        },
-        "175": {
-            "Fall Term 2024": {
-                "Lectures": {
-                    "A1": {
-                        "section_code": "47924",
-                        "capacity": "120",
-                        "class_times": "09:00 - 09:50",
-                        "class_days": "MWF"
-                    },
-                    "A2": {
-                        "section_code": "54268",
-                        "capacity": "120",
-                        "class_times": "11:00 - 11:50",
-                        "class_days": "MWF"
-                    }
-                },
-                "Labs": {
-                    "D01": {
-                        "section_code": "47929",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "D02": {
-                        "section_code": "47925",
-                        "capacity": "48",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "D04": {
-                        "section_code": "47930",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "D05": {
-                        "section_code": "49241",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "D06": {
-                        "section_code": "47926",
-                        "capacity": "24",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "D07": {
-                        "section_code": "47927",
-                        "capacity": "48",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    }
-                }
-            },
-            "Winter Term 2025": {
-                "Lectures": {
-                    "B1": {
-                        "section_code": "73426",
-                        "capacity": "186",
-                        "class_times": "09:00 - 09:50",
-                        "class_days": "MWF"
-                    },
-                    "B2": {
-                        "section_code": "73431",
-                        "capacity": "186",
-                        "class_times": "10:00 - 10:50",
-                        "class_days": "MWF"
-                    },
-                    "B3": {
-                        "section_code": "75466",
-                        "capacity": "186",
-                        "class_times": "11:00 - 11:50",
-                        "class_days": "MWF"
-                    },
-                    "B4": {
-                        "section_code": "73435",
-                        "capacity": "186",
-                        "class_times": "12:00 - 12:50",
-                        "class_days": "MWF"
-                    },
-                    "B5": {
-                        "section_code": "74147",
-                        "capacity": "186",
-                        "class_times": "14:00 - 14:50",
-                        "class_days": "MWF"
-                    }
-                },
-                "Labs": {
-                    "H01": {
-                        "section_code": "73427",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "M"
-                    },
-                    "H02": {
-                        "section_code": "73432",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "M"
-                    },
-                    "H03": {
-                        "section_code": "75468",
-                        "capacity": "57",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "M"
-                    },
-                    "H04": {
-                        "section_code": "73447",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "M"
-                    },
-                    "H05": {
-                        "section_code": "74150",
-                        "capacity": "23",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "T"
-                    },
-                    "H06": {
-                        "section_code": "73494",
-                        "capacity": "57",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "T"
-                    },
-                    "H07": {
-                        "section_code": "73436",
-                        "capacity": "56",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "T"
-                    },
-                    "H08": {
-                        "section_code": "74774",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "H09": {
-                        "section_code": "73428",
-                        "capacity": "56",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "T"
-                    },
-                    "H10": {
-                        "section_code": "74151",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "H11": {
-                        "section_code": "73429",
-                        "capacity": "56",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "T"
-                    },
-                    "H12": {
-                        "section_code": "70770",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "W"
-                    },
-                    "H13": {
-                        "section_code": "73433",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "H14": {
-                        "section_code": "74775",
-                        "capacity": "56",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "W"
-                    },
-                    "H15": {
-                        "section_code": "73434",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "H16": {
-                        "section_code": "75469",
-                        "capacity": "56",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "W"
-                    },
-                    "H17": {
-                        "section_code": "74152",
-                        "capacity": "23",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "R"
-                    },
-                    "H18": {
-                        "section_code": "73437",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "R"
-                    },
-                    "H19": {
-                        "section_code": "73493",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "H20": {
-                        "section_code": "75470",
-                        "capacity": "56",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "R"
-                    },
-                    "H21": {
-                        "section_code": "74153",
-                        "capacity": "23",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "H22": {
-                        "section_code": "73438",
-                        "capacity": "56",
-                        "class_times": "17:00 - 19:50",
-                        "class_days": "R"
-                    },
-                    "H23": {
-                        "section_code": "70843",
-                        "capacity": "23",
-                        "class_times": "08:00 - 10:50",
-                        "class_days": "F"
-                    },
-                    "H24": {
-                        "section_code": "70773",
-                        "capacity": "23",
-                        "class_times": "11:00 - 13:50",
-                        "class_days": "F"
-                    },
-                    "H25": {
-                        "section_code": "73492",
-                        "capacity": "23",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    },
-                    "H26": {
-                        "section_code": "74776",
-                        "capacity": "56",
-                        "class_times": "14:00 - 16:50",
-                        "class_days": "F"
-                    }
-                }
-            }
-        }
-    },
-    "abrod": {
-        "800": {
-            "Summer Term 2024": {
+    "summer": {
+        "abrod": {
+            "800": {
                 "Seminars": {
                     "850": {
                         "section_code": "40287",
@@ -793,29 +23,7 @@
                     }
                 }
             },
-            "Fall Term 2024": {
-                "Seminars": {
-                    "800": {
-                        "section_code": "46861",
-                        "capacity": "50",
-                        "class_times": "2024-09-03 - 2024-12-09",
-                        "class_days": "Unknown Days"
-                    }
-                }
-            },
-            "Winter Term 2025": {
-                "Seminars": {
-                    "850": {
-                        "section_code": "72225",
-                        "capacity": "50",
-                        "class_times": "2025-01-06 - 2025-04-09",
-                        "class_days": "Unknown Days"
-                    }
-                }
-            }
-        },
-        "900": {
-            "Summer Term 2024": {
+            "900": {
                 "Seminars": {
                     "850": {
                         "section_code": "40329",
@@ -824,23 +32,87 @@
                         "class_days": "Unknown Days"
                     }
                 }
+            }
+        }
+    },
+    "winter": {
+        "acctg": {
+            "424": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40502                                                         Download syllabus",
+                        "capacity": "60",
+                        "class_times": "10:30 - 13:20",
+                        "class_days": "TR"
+                    }
+                }
             },
-            "Fall Term 2024": {
-                "Seminars": {
-                    "800": {
-                        "section_code": "49831",
-                        "capacity": "50",
-                        "class_times": "2024-09-03 - 2024-12-09",
+            "495": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40719",
+                        "capacity": "1",
+                        "class_times": "2024-07-08 - 2024-08-14",
                         "class_days": "Unknown Days"
                     }
                 }
             },
-            "Winter Term 2025": {
-                "Seminars": {
+            "625": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40929",
+                        "capacity": "40",
+                        "class_times": "2024-07-08 - 2024-08-14",
+                        "class_days": "Unknown Days"
+                    }
+                }
+            },
+            "657": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40925",
+                        "capacity": "40",
+                        "class_times": "2024-07-08 - 2024-08-14",
+                        "class_days": "Unknown Days"
+                    }
+                }
+            },
+            "688": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40926",
+                        "capacity": "40",
+                        "class_times": "2024-07-08 - 2024-08-14",
+                        "class_days": "Unknown Days"
+                    }
+                }
+            },
+            "689": {
+                "Lectures": {
+                    "B01": {
+                        "section_code": "40927",
+                        "capacity": "40",
+                        "class_times": "2024-07-08 - 2024-08-14",
+                        "class_days": "Unknown Days"
+                    }
+                }
+            },
+            "801": {
+                "Lectures": {
                     "850": {
-                        "section_code": "71024",
+                        "section_code": "40893",
                         "capacity": "50",
-                        "class_times": "2025-01-06 - 2025-04-09",
+                        "class_times": "2024-07-29 - 2024-08-14",
+                        "class_days": "Unknown Days"
+                    }
+                }
+            },
+            "812": {
+                "Lectures": {
+                    "850": {
+                        "section_code": "40889",
+                        "capacity": "50",
+                        "class_times": "2024-07-29 - 2024-08-14",
                         "class_days": "Unknown Days"
                     }
                 }

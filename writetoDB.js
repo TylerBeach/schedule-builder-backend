@@ -1,6 +1,6 @@
 const fs = require('fs');
 const mongoose = require('mongoose');
-const Course = require('./models/course.model'); // Adjust the path as needed
+const Course = require('./models/course.model');
 
 require('dotenv').config();
 
@@ -11,37 +11,41 @@ mongoose.connect(process.env.MONGO_URI)
     })
     .catch(err => console.error('Error connecting to MongoDB', err));
 
-function importCourses() {
-    
-    // 
-    const filename = 'cleaned_data_v2.json';
+async function importCourses() {
+    const filename = 'reformatted.json';
 
-    fs.readFile(filename, 'utf8', async (err, data) => {
-        if (err) {
-            console.error('Error reading file:', err);
-            return;
-        }
-
+    try {
+        const data = await fs.promises.readFile(filename, 'utf8');
         const jsonData = JSON.parse(data);
 
-        // iterate over each of the faculties in the master doc 
-        for (const department in jsonData) {
-            if (jsonData.hasOwnProperty(department)) {
-                
-                const course = new Course({
-                    department: department,      // e.g., 'cmput', 'abrod'
-                    details: jsonData[department] // Store the nested structure
-                });
+        console.log("Parsed JSON data:", jsonData);
 
-                try {
-                    const savedCourse = await course.save();
-                    console.log(`Course data for ${department} saved successfully:`, savedCourse);
-                } catch (saveErr) {
-                    console.error(`Error saving course data for ${department}:`, saveErr);
-                }
+        // iterate over each term in the JSON data
+        for (const [term, departments] of Object.entries(jsonData)) {
+
+            console.log(`Processing term: ${term}`);
+
+            if (Object.keys(departments).length === 0) {
+                console.log(`Skipping empty term: ${term}`);
+                continue; 
+            }
+
+            //  new Course document for each term
+            const course = new Course({
+                term: term, // 'spring', 'summer', 'fall', 'winter'
+                department: departments 
+            });
+
+            try {
+                const savedCourse = await course.save();
+                console.log(`Course data for ${term} saved successfully.`);
+            } catch (saveErr) {
+                console.error(`Error saving course data for ${term}:`, saveErr);
             }
         }
-
-        mongoose.connection.close(); // Ensure the connection is closed
-    });
+    } catch (err) {
+        console.error('Error reading file:', err);
+    } finally {
+        mongoose.connection.close(); 
+    }
 }

@@ -4,49 +4,84 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-// Import the Product, User, and Course models
 const Product = require('./models/product.model');
 const User = require('./models/user.model');
-const Course = require('./models/course.model'); // Import the Course model
+const Course = require('./models/course.model');
 
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('University of Alberta Schedule API Documentation\nYou can send requests to /fall /winter /summer /spring to get all courses offered for each term\nYou can also send requests to /fall/department /winter/department /summer/department /spring/department to get all courses offered for each department in each term\nYou can also send requests to /fall/department/courseNumber /winter/department/courseNumber /summer/department/courseNumber /spring/department/courseNumber to get all courses offered for each course in each department in each term');
 });
 
-app.get('/course/:department', async (req, res) => {
+
+app.get('/course/:term/', async (req, res) => {
     try {
-        // Find the course by department
-        const course = await Course.findOne({ department: req.params.department });
-        if (!course) {
-            return res.status(404).send({ message: 'Course not found' });
+        const termInfo = await Course.findOne({ term: req.params.term });
+        if (!termInfo) {
+            return res.status(404).send({ message: 'termInfo not found' });
         }
-        res.status(200).send(course); // No need to use JSON.stringify, Express handles it
+
+        res.status(200).send(termInfo);
     } catch (err) {
         res.status(500).send({ message: err.message });
     }
 });
 
-app.get('/course/:department/:course', async (req, res) => {
+app.get('/course/:term/:department', async (req, res) => {
     try {
-        // Find the course by department
-        const course = await Course.findOne({ department: req.params.department });
-        if (!course) {
+        // get the specific term
+        const queriedTerm = await Course.findOne({ term: req.params.term });
+        if (!queriedTerm) {
+            return res.status(404).send({ message: 'Term not found' });
+        }
+
+
+        //  specific department within the term's departments
+        const departmentInfo = queriedTerm.department.get(req.params.department);
+        if (!departmentInfo) {
             return res.status(404).send({ message: 'Department not found' });
         }
 
-        // Check if the course exists within the department
-        const courseDetails = course.details[req.params.course];
-        if (!courseDetails) {
-            return res.status(404).send({ message: 'Course not found' });
-        }
-
-        res.status(200).send(courseDetails); // Express handles JSON conversion
+        // department information as a response
+        res.status(200).send(departmentInfo);
     } catch (err) {
+        console.error(err);
         res.status(500).send({ message: err.message });
     }
 });
+
+
+app.get('/course/:term/:department/:courseNumber', async (req, res) => {
+    try {
+        // get term query 
+        const queriedTerm = await Course.findOne({ term: req.params.term });
+        if (!queriedTerm) {
+            return res.status(404).send({ message: 'Term not found' });
+        }
+
+        // specific department within the term's departments
+        const departmentInfo = queriedTerm.department.get(req.params.department);
+        if (!departmentInfo) {
+            return res.status(404).send({ message: 'Department not found' });
+        }
+
+        // specific course within the department
+        const courseInfo = departmentInfo[req.params.courseNumber];
+        if (!courseInfo) {
+            return res.status(404).send({ message: 'Course not found' });
+        }
+
+        // course information as a response
+        res.status(200).send(courseInfo);
+    } catch (err) {
+        console.error(err);
+        res.status(500).send({ message: err.message });
+    }
+});
+
+
+
 
 
 const port = process.env.PORT || 3000;
