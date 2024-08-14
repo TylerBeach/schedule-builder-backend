@@ -10,9 +10,45 @@ const Course = require('./models/course.model');
 
 app.use(express.json());
 
+const documentation = `
+University of Alberta Schedule API Documentation
+
+Welcome to the University of Alberta Schedule API. This API provides access to course schedules for various terms, departments, and specific courses. Below is an overview of the available endpoints and how to use them:
+
+1. Retrieve All Courses for a Specific Term
+   - **Endpoint:** /fall, /winter, /summer, /spring
+   - **Description:** Use these endpoints to retrieve all courses offered during the specified term.
+   - **Example Request:** GET /fall
+   - **Response:** A JSON object containing all courses offered in the specified term.
+
+2. Retrieve All Courses for a Specific Department in a Specific Term
+   - **Endpoint:** /fall/:department, /winter/:department, /summer/:department, /spring/:department
+   - **Description:** Use these endpoints to retrieve all courses offered by a specific department during the specified term.
+   - **Path Parameters:**
+     - :department: The department code (e.g., cmput, math, engg).
+   - **Example Request:** GET /fall/cmput
+   - **Response:** A JSON object containing all courses offered by the specified department in the specified term.
+
+3. Retrieve a Specific Course from a Specific Department in a Specific Term
+   - **Endpoint:** /fall/:department/:courseNumber, /winter/:department/:courseNumber, /summer/:department/:courseNumber, /spring/:department/:courseNumber
+   - **Description:** Use these endpoints to retrieve detailed information about a specific course offered by a department during the specified term.
+   - **Path Parameters:**
+     - :department: The department code (e.g., cmput, math, engg).
+     - :courseNumber: The course number (e.g., 101, 324, 499).
+   - **Example Request:** GET /fall/cmput/101
+   - **Response:** A JSON object containing detailed information about the specified course, including section codes, capacities, class times, and descriptions.
+
+Usage Tips:
+- Ensure that you replace :department and :courseNumber with the appropriate values when making requests.
+- The response format is JSON, providing easy integration with other applications and systems.
+
+This documentation provides an overview of how to interact with the API. Each endpoint is designed to give you access to the course schedules at different levels of specificity, from an entire term down to a specific course in a specific department.
+`;
+
 app.get('/', (req, res) => {
-    res.send('University of Alberta Schedule API Documentation\nYou can send requests to /fall /winter /summer /spring to get all courses offered for each term\nYou can also send requests to /fall/department /winter/department /summer/department /spring/department to get all courses offered for each department in each term\nYou can also send requests to /fall/department/courseNumber /winter/department/courseNumber /summer/department/courseNumber /spring/department/courseNumber to get all courses offered for each course in each department in each term');
+    res.send(documentation);
 });
+
 
 
 app.get('/course/:term/', async (req, res) => {
