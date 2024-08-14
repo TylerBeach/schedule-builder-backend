@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGO_URI)
 function importCourses() {
     
     // 
-    const filename = 'cleaned_data.json';
+    const filename = 'cleaned_data_v2.json';
 
     fs.readFile(filename, 'utf8', async (err, data) => {
         if (err) {
