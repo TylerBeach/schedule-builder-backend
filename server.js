@@ -1,12 +1,15 @@
 require('dotenv').config();
 
 const express = require('express');
+const cors = require('cors'); 
 const app = express();
 const mongoose = require('mongoose');
 
 const Product = require('./models/product.model');
 const User = require('./models/user.model');
 const Course = require('./models/course.model');
+
+app.use(cors()); 
 
 app.use(express.json());
 
@@ -49,8 +52,6 @@ app.get('/', (req, res) => {
     res.send(documentation);
 });
 
-
-
 app.get('/course/:term/', async (req, res) => {
     try {
         const termInfo = await Course.findOne({ term: req.params.term });
@@ -72,8 +73,7 @@ app.get('/course/:term/:department', async (req, res) => {
             return res.status(404).send({ message: 'Term not found' });
         }
 
-
-        //  specific department within the term's departments
+        // specific department within the term's departments
         const departmentInfo = queriedTerm.department.get(req.params.department);
         if (!departmentInfo) {
             return res.status(404).send({ message: 'Department not found' });
@@ -86,7 +86,6 @@ app.get('/course/:term/:department', async (req, res) => {
         res.status(500).send({ message: err.message });
     }
 });
-
 
 app.get('/course/:term/:department/:courseNumber', async (req, res) => {
     try {
@@ -115,10 +114,6 @@ app.get('/course/:term/:department/:courseNumber', async (req, res) => {
         res.status(500).send({ message: err.message });
     }
 });
-
-
-
-
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
