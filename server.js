@@ -118,6 +118,8 @@ app.get('/course/:term/:department/:courseNumber', async (req, res) => {
 app.post('/schedule', async (req, res) => {
     const receivedArray = req.body;
     console.log("Array is:" , receivedArray);
+    console.log("Cart is:" , receivedArray.cart);
+    console.log("Term is: ", receivedArray.term);
 
     // call schedule maker function here ( TODO )
     res.json({ message: 'Array received successfully', receivedArray });
