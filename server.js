@@ -115,6 +115,16 @@ app.get('/course/:term/:department/:courseNumber', async (req, res) => {
     }
 });
 
+app.post('/schedule', async (req, res) => {
+    const receivedArray = req.body;
+    console.log("Array is:" , receivedArray);
+
+    // call schedule maker function here ( TODO )
+    res.json({ message: 'Array received successfully', receivedArray });
+});
+
+
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log("Server started");
