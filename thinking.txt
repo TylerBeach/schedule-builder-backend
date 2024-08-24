@@ -1,0 +1,71 @@
+combinations = []
+if Lectures:
+    for lecture in lectureList: 
+        
+
+some cases that could happen 
+
+1: Lectures 
+2: Lectures, Labs
+3: Lectures, Labs and Seminars
+4: Lectures, Seminars
+
+( less likely options )
+5: Labs 
+6: Seminars 
+7: Labs, Seminars 
+
+Determine the Case 
+Check all three then determine the case maybe?
+
+Step 1:  Pick a lecture 
+Step 2: Iterate through labs if there is 
+
+
+
+
+
+"Lectures": {
+"A1": {
+    "class_times": "09:30 - 10:50",
+    "class_days": "TR"  },
+"A2": {
+    "class_times": "14:00 - 15:20",
+    "class_days": "TR"  }
+"Labs": {
+"D01": {
+    "class_times": "11:00 - 13:50",
+    "class_days": "M" },
+"D02": {
+    "class_times": "14:00 - 16:50",
+    "class_days": "M" },
+"D03": {
+    "class_times": "17:00 - 19:50",
+    "class_days": "M" },
+"D04": {
+    "class_times": "11:00 - 13:50",
+    "class_days": "T" },
+"D05": {
+    "class_times": "14:00 - 16:50",
+    "class_days": "T" },
+"D06": {
+    "class_times": "17:00 - 19:50",
+    "class_days": "T" },
+"D07": {
+    "class_times": "11:00 - 13:50",
+    "class_days": "W" },
+"D08": {
+    "class_times": "14:00 - 16:50",
+    "class_days": "W" },
+"D09": {
+    "class_times": "17:00 - 19:50",
+    "class_days": "W" },
+"D10": {
+    "class_times": "11:00 - 13:50",
+    "class_days": "R" },
+"D11": {
+    "class_times": "11:00 - 13:50",
+    "class_days": "F" },
+"D12": {
+    "class_times": "14:00 - 16:50",
+    "class_days": "F" }
